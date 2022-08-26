@@ -96,7 +96,7 @@ select dname,sum(sal) as Total_Salary from dept,emp where dept.deptno=emp.deptno
 
  Select ename,sal from emp where ename in ('miller','smith')
 
- --Find out the names of the employees whose name begin with ‘A’ or ‘M’. 
+ --Find out the names of the employees whose name begin with â€˜Aâ€™ or â€˜Mâ€™. 
 
  select ename from emp where ename like '[AM]%'
 
